@@ -37,6 +37,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - run: |
           echo Hello from Github Actions
           echo This is a multiline script
